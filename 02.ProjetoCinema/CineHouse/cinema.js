@@ -15,18 +15,16 @@ criar um objeto do tipo Filme.*/
 
 function adicionarFilme(cod,tit,dur,ato,ano,car){
     catalogo.push({'codigo':cod,'titulo':tit,'duracao':dur,'atores':ato,'ano':ano, 'Cartaz':car})
-
     return catalogo
 }
-
 console.log(adicionarFilme('444444','As Quatro torres',3,['atorAlfa','atorBeta','atorGama'],2022,true))
 
 
 //-----2. Buscar filme-----
-//codando...
 
 
-//-----3. Alterar Status EmCartaz-----
+
+//-----3. Alterar Status Em Cartaz-----
 //codando...
 
 
