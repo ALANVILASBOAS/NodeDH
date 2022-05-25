@@ -26,7 +26,6 @@ busca no array de catálogo e ao fim retornar o objeto encontrado.
 Preferencialmente, retorne de forma mais amigável ao usuário final (pode
 utilizar console para não retornar apenas o objeto).*/
 
-
 function buscarFilme(cod){
     let resultCod = catalogo.find(({codigo})=>codigo==cod)
     let userCart ='';
@@ -38,11 +37,33 @@ function buscarFilme(cod){
     return '\n Procurando filme de código '+resultCod.codigo+'...\n Resultado encontrado:'+
     '\n Titulo: '+resultCod.titulo+'\n Duração: '+resultCod.duracao+'\n Atores: '+resultCod.atores+'\n Ano: '+resultCod.ano+'\n Atualmente o filme '+userCart
 }
-
 console.log(buscarFilme(222222))
 
+//Para referencia, explicação do uso do '.find':
+//https://www.codegrepper.com/code-examples/javascript/array.find+javascript
+
+
+
 //-----3. Alterar Status Em Cartaz-----
-//codando...
+/*A função deve receber como parâmetro o número identificador do filme
+escolhido, buscar o filme com base no parâmetro recebido e alterar o status
+existente da propriedade em Cartaz (se estava como true, alterar para false, e
+vice e versa).*/
+
+function alterarCartaz(cod2){
+    let resultCod = catalogo.find(({codigo})=>codigo==cod2)
+    let userCart ='';
+    if (resultCod.cartaz===true){
+        userCart = !resultCod.cartaz
+    } else if(resultCod.cartaz===false){
+        userCart = !resultCod.cartaz
+    }
+    return '\n Propriedade do cartaz alterado para: '+userCart
+}
+console.log(alterarCartaz(111111))
+
+
+
 
 
 
