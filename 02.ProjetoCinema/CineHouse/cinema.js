@@ -1,6 +1,5 @@
 //Módulo 2: Introdução a Node e Javascript
     //Revisão de funções, condicionais e Arrays (26/05)
-        //Revisão de funções, condicionais e Arrays
 
 //-----variável com array de objetos-----
 var catalogo =
