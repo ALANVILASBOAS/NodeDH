@@ -29,10 +29,8 @@ utilizar console para não retornar apenas o objeto).*/
 function buscarFilme(cod){
     let resultCod = catalogo.find(({codigo})=>codigo==cod)
     let userCart ='';
-    if (resultCod.cartaz===true){
-        userCart = 'está em cartaz'
-    } else if(resultCod.cartaz===false){
-        userCart = 'não está em cartaz,'
+    if (resultCod.cartaz===true){userCart = 'está em cartaz'
+    } else if(resultCod.cartaz===false){userCart = 'não está em cartaz,'
     }
     return '\n Procurando filme de código '+resultCod.codigo+'...\n Resultado encontrado:'+
     '\n Titulo: '+resultCod.titulo+'\n Duração: '+resultCod.duracao+'\n Atores: '+resultCod.atores+'\n Ano: '+resultCod.ano+'\n Atualmente o filme '+userCart
@@ -53,10 +51,8 @@ vice e versa).*/
 function alterarCartaz(cod2){
     let resultCod = catalogo.find(({codigo})=>codigo==cod2)
     let userCart ='';
-    if (resultCod.cartaz===true){
-        userCart = !resultCod.cartaz
-    } else if(resultCod.cartaz===false){
-        userCart = !resultCod.cartaz
+    if (resultCod.cartaz===true){userCart = !resultCod.cartaz
+    } else if(resultCod.cartaz===false){userCart = !resultCod.cartaz
     }
     return '\n Propriedade do cartaz alterado para: '+userCart
 }
