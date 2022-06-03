@@ -1,0 +1,18 @@
+Explicação detalhada de forEach:
+
+https://www.youtube.com/watch?v=TF74JHceI9k
+
+
+obs.
+modos de declarar funções:
+
+function(){}
+
+() => {}
+
+_____________________
+tipagem javascript:
+
+() - função
+[] - array
+{} - objeto
