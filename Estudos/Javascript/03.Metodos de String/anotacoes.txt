@@ -1,0 +1,5 @@
+para o javascript, uma string é um objeto especial
+
+uma string pode consultar propriedades e executar diversos metodos.
+
+Metodos são funções que estão dentro de um objeto.
