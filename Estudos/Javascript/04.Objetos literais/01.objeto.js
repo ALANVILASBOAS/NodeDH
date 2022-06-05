@@ -12,4 +12,5 @@ let meuPais = {
 console.log(`A capital do ${meuPais.nome} é ${meuPais.capital}`)
 
 
-
+// outra forma de acessar propriedade de um objeto
+console.log(`A capital do ${meuPais['nome']} é ${meuPais['capital']}`)
