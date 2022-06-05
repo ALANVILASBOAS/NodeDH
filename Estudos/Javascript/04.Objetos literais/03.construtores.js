@@ -12,7 +12,6 @@ let meuPais = {
         this.capital = recebeCapital
         return `Sou do ${this.nome}, que tem como capital ${this.capital}`
     }
-
 };
-
 console.log(meuPais.nacionalidade("Brasil","Brasília"));
+
