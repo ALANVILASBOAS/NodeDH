@@ -1,0 +1,26 @@
+[
+    {
+      "codigo": 111111,
+      "titulo": "A Socieda Do Anel",
+      "duracao": 1,
+      "atores": [ "ator1", "ator2", "ator3" ],
+      "ano": 2001,
+      "cartaz": false
+    },
+    {
+        "codigo": 222222,
+        "titulo": "As Duas Torres",
+        "duracao": 2,
+        "atores": ["atorA", "atorB", "atorC"],
+        "ano": 2002,
+        "cartaz": false
+    },
+    {
+        "codigo": 333333,
+        "titulo": "O Retorno do Rei",
+        "duracao": 2,
+        "atores": [ "atorX", "atorY","atorZ" ],
+        "ano": 2003,
+        "cartaz": true
+    }
+  ]

@@ -9,7 +9,7 @@ var listaDeEmails = [
 
 
 
-// splice - mostra itens existentes em array
+// slice - mostra itens existentes em array
 // primeiro parametro é o índice que se inicia
 // segundo parametro é o índice que não irá mais mostrar
 //Exemplo de slice mostra a partir do índice 2 e não mostra mais a partir do índice 3:

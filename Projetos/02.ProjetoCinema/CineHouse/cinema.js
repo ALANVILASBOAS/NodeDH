@@ -1,6 +1,13 @@
 //Módulo 2: Introdução a Node e Javascript
     //Revisão de funções, condicionais e Arrays (26/05)
 
+const catalogo22 = require('./database/catalogo.json')
+
+let objeto22 = JSON.stringify(catalogo22);
+console.log(objeto22)
+
+
+
 //-----variável com array de objetos-----
 var catalogo =
 [
@@ -9,6 +16,7 @@ var catalogo =
     {codigo:333333,titulo:'O Retorno do Rei',duracao:2,atores:['atorX','atorY','atorZ'],ano:2003,cartaz:true}
 ]
 
+console.log(catalogo)
 //-----1. Adicionar Filme-----
 /* A função deve receber os parâmetros com as informações necessárias para
 criar um objeto do tipo Filme.*/
